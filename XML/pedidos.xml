@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <pedidos>
+
+        <!-- Pedido 1 -->
+        <pedido id="PED1">
+            <fecha>2026-09-10</fecha>
+            <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Gomez Ruiz</apellidos>
+                <email>carlos@email.com</email>
+            </cliente>
+            <direccion_envio>
+                <calle>Calle Mayor 12</calle>
+                <ciudad>Madrid</ciudad>
+                <codigo_postal>28001</codigo_postal>
+            </direccion_envio>
+            <productos>
+                <producto id="PROD1">
+                    <nombre>Raton Gaming</nombre>
+                    <cantidad>1</cantidad>
+                    <precio_unitario>25.50</precio_unitario>
+                </producto>
+                <producto id="PROD2">
+                    <nombre>Alfombrilla XXL</nombre>
+                    <cantidad>2</cantidad>
+                    <precio_unitario>12.00</precio_unitario>
+                </producto>
+            </productos>
+            <total>49.50</total>
+        </pedido>
+
+        <!-- Pedido 2 -->
+        <pedido id="PED2">
+            <fecha>2026-09-12</fecha>
+            <cliente>
+                <nombre>Laura</nombre>
+                <apellidos>Sanchez Martin</apellidos>
+                <email>laura@email.com</email>
+            </cliente>
+            <direccion_envio>
+                <calle>Avenida del Mar 5</calle>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46002</codigo_postal>
+            </direccion_envio>
+            <productos>
+                <producto id="PROD3">
+                    <nombre>Teclado Mecanico</nombre>
+                    <cantidad>1</cantidad>
+                    <precio_unitario>60.00</precio_unitario>
+                </producto>
+                <producto id="PROD4">
+                    <nombre>Auriculares</nombre>
+                    <cantidad>1</cantidad>
+                    <precio_unitario>45.00</precio_unitario>
+                </producto>
+            </productos>
+            <total>105.00</total>
+        </pedido>
+
+        <!-- Pedido 3 -->
+        <pedido id="PED3">
+            <fecha>2026-09-15</fecha>
+            <cliente>
+                <nombre>David</nombre>
+                <apellidos>Navarro Cano</apellidos>
+                <email>david@email.com</email>
+            </cliente>
+            <direccion_envio>
+                <calle>Calle Real 45</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigo_postal>41001</codigo_postal>
+            </direccion_envio>
+            <productos>
+                <producto id="PROD1">
+                    <nombre>Raton Gaming</nombre>
+                    <cantidad>1</cantidad>
+                    <precio_unitario>25.50</precio_unitario>
+                </producto>
+                <producto id="PROD5">
+                    <nombre>Monitor 24 pulgadas</nombre>
+                    <cantidad>1</cantidad>
+                    <precio_unitario>150.00</precio_unitario>
+                </producto>
+            </productos>
+            <total>175.50</total>
+        </pedido>
+
+    </pedidos>
+</tienda>

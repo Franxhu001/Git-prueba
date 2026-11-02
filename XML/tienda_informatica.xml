@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda>
+
+    <producto id="1">
+        <nombre>Portátil IdeaPad 5</nombre>
+        <marca>Lenovo</marca>
+        <precio>749.99</precio>
+        <stock>12</stock>
+        <categoria>Portátiles</categoria>
+    </producto>
+
+    <producto id="2">
+        <nombre>Teclado mecánico K2</nombre>
+        <marca>Keychron</marca>
+        <precio>89.90</precio>
+        <stock>25</stock>
+        <categoria>Teclados</categoria>
+    </producto>
+
+    <producto id="3">
+        <nombre>Ratón inalámbrico MX Master 3S</nombre>
+        <marca>Logitech</marca>
+        <precio>99.99</precio>
+        <stock>18</stock>
+        <categoria>Ratones</categoria>
+    </producto>
+
+    <producto id="4">
+        <nombre>Monitor 27 pulgadas</nombre>
+        <marca>Samsung</marca>
+        <precio>229.00</precio>
+        <stock>8</stock>
+        <categoria>Monitores</categoria>
+    </producto>
+
+    <producto id="5">
+        <nombre>SSD 1 TB</nombre>
+        <marca>Kingston</marca>
+        <precio>74.50</precio>
+        <stock>30</stock>
+        <categoria>Almacenamiento</categoria>
+    </producto>
+
+</tienda>

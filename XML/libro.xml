@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <titulo>Titulo de ejemplo</titulo>
+    <autor>Actor Jordi</autor>
+    <publicacion>2001</publicacion>
+    <genero>Fantasia</genero>
+
+</libro>

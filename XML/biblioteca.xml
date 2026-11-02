@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+
+    <libro>
+        <titulo>El Principito</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <publicacion>1943</publicacion>
+        <genero>Fábula</genero>
+        <isbn>9780156012195</isbn>
+    </libro>
+
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <publicacion>1949</publicacion>
+        <genero>Ciencia ficción</genero>
+        <isbn>9780451524935</isbn>
+    </libro>
+
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <publicacion>1605</publicacion>
+        <genero>Novela</genero>
+        <isbn>9788420412146</isbn>
+    </libro>
+
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <publicacion>1967</publicacion>
+        <genero>Realismo mágico</genero>
+        <isbn>9780307474728</isbn>
+    </libro>
+
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <publicacion>2001</publicacion>
+        <genero>Misterio</genero>
+        <isbn>9788408172170</isbn>
+    </libro>
+
+</biblioteca>

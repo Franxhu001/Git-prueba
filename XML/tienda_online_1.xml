@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+  
+    <informacion_general>
+        <nombre>TechZone Online</nombre>
+        <cif>B12345678</cif>
+        <email>contacto@techzone.com</email>
+        <telefono>961234567</telefono>
+        <direccion>
+            <calle>Avenida de Francia 45</calle>
+            <codigo_postal>46023</codigo_postal>
+            <ciudad>Valencia</ciudad>
+            <pais>España</pais>
+        </direccion>
+    </informacion_general>
+
+    <productos>
+        <producto id="PROD-001">
+            <nombre>Ratón Gaming Óptico</nombre>
+            <categoria>Periféricos</categoria>
+            <precio>49.99</precio>
+            <stock>120</stock>
+            <activo>true</activo>
+        </producto>
+
+        <producto id="PROD-002">
+            <nombre>Teclado Mecánico RGB</nombre>
+            <categoria>Periféricos</categoria>
+            <precio>89.95</precio>
+            <stock>45</stock>
+            <activo>true</activo>
+        </producto>
+
+        <producto id="PROD-003">
+            <nombre>Monitor 27" 144Hz</nombre>
+            <categoria>Monitores</categoria>
+            <precio>219.00</precio>
+            <stock>15</stock>
+            <activo>true</activo>
+        </producto>
+
+        <producto id="PROD-004">
+            <nombre>Auriculares Inalámbricos</nombre>
+            <categoria>Audio</categoria>
+            <precio>129.50</precio>
+            <stock>30</stock>
+            <activo>true</activo>
+        </producto>
+
+        <producto id="PROD-005">
+            <nombre>Silla Gaming Ergonómica</nombre>
+            <categoria>Mobiliario</categoria>
+            <precio>175.00</precio>
+            <stock>0</stock>
+            <activo>false</activo>
+        </producto>
+    </productos>
+
+    <clientes>
+        <cliente id="CLI-001">
+            <nombre>Carlos</nombre>
+            <apellidos>García López</apellidos>
+            <email>carlos.garcia@example.com</email>
+            <telefono>600112233</telefono>
+            <direccion>
+                <calle>Calle Colón 12, 3ºB</calle>
+                <codigo_postal>46004</codigo_postal>
+                <ciudad>Valencia</ciudad>
+            </direccion>
+        </cliente>
+
+        <cliente id="CLI-002">
+            <nombre>Laura</nombre>
+            <apellidos>Martínez Gómez</apellidos>
+            <email>laura.martinez@example.com</email>
+            <telefono>611223344</telefono>
+            <direccion>
+                <calle>Calle Gran Vía 8, 1ºA</calle>
+                <codigo_postal>28013</codigo_postal>
+                <ciudad>Madrid</ciudad>
+            </direccion>
+        </cliente>
+
+        <cliente id="CLI-003">
+            <nombre>David</nombre>
+            <apellidos>Sánchez Pérez</apellidos>
+            <email>david.sanchez@example.com</email>
+            <telefono>622334455</telefono>
+            <direccion>
+                <calle>Avenida Blasco Ibáñez 102, 5ºC</calle>
+                <codigo_postal>46021</codigo_postal>
+                <ciudad>Valencia</ciudad>
+            </direccion>
+        </cliente>
+
+        <cliente id="CLI-004">
+            <nombre>Elena</nombre>
+            <apellidos>Fernández Ruiz</apellidos>
+            <email>elena.fernandez@example.com</email>
+            <telefono>633445566</telefono>
+            <direccion>
+                <calle>Carrer de Mallorca 234</calle>
+                <codigo_postal>08008</codigo_postal>
+                <ciudad>Barcelona</ciudad>
+            </direccion>
+        </cliente>
+    </clientes>
+
+    <pedidos>
+        <pedido id="PED-001">
+            <fecha>2026-09-15</fecha>
+            <cliente_id>CLI-001</cliente_id>
+            <direccion_envio>
+                <calle>Calle Colón 12, 3ºB</calle>
+                <codigo_postal>46004</codigo_postal>
+                <ciudad>Valencia</ciudad>
+            </direccion_envio>
+            <estado>Entregado</estado>
+            <productos>
+                <producto id="PROD-001" cantidad="1" precio_unitario="49.99"/>
+                <producto id="PROD-002" cantidad="1" precio_unitario="89.95"/>
+            </productos>
+            <total>139.94</total>
+        </pedido>
+
+        <pedido id="PED-002">
+            <fecha>2026-09-20</fecha>
+            <cliente_id>CLI-002</cliente_id>
+            <direccion_envio>
+                <calle>Calle Gran Vía 8, 1ºA</calle>
+                <codigo_postal>28013</codigo_postal>
+                <ciudad>Madrid</ciudad>
+            </direccion_envio>
+            <estado>Enviado</estado>
+            <productos>
+                <producto id="PROD-003" cantidad="2" precio_unitario="219.00"/>
+                <producto id="PROD-004" cantidad="1" precio_unitario="129.50"/>
+            </productos>
+            <total>567.50</total>
+        </pedido>
+
+        <pedido id="PED-003">
+            <fecha>2026-09-25</fecha>
+            <cliente_id>CLI-003</cliente_id>
+            <direccion_envio>
+                <calle>Avenida Blasco Ibáñez 102, 5ºC</calle>
+                <codigo_postal>46021</codigo_postal>
+                <ciudad>Valencia</ciudad>
+            </direccion_envio>
+            <estado>Procesando</estado>
+            <productos>
+                <producto id="PROD-001" cantidad="2" precio_unitario="49.99"/>
+                <producto id="PROD-004" cantidad="1" precio_unitario="129.50"/>
+            </productos>
+            <total>229.48</total>
+        </pedido>
+
+        <pedido id="PED-004">
+            <fecha>2026-09-27</fecha>
+            <cliente_id>CLI-004</cliente_id>
+            <direccion_envio>
+                <calle>Carrer de Mallorca 234</calle>
+                <codigo_postal>08008</codigo_postal>
+                <ciudad>Barcelona</ciudad>
+            </direccion_envio>
+            <estado>Pendiente</estado>
+            <productos>
+                <producto id="PROD-002" cantidad="1" precio_unitario="89.95"/>
+                <producto id="PROD-003" cantidad="1" precio_unitario="219.00"/>
+            </productos>
+            <total>308.95</total>
+        </pedido>
+
+        <pedido id="PED-005">
+            <fecha>2026-09-28</fecha>
+            <cliente_id>CLI-001</cliente_id>
+            <direccion_envio>
+                <calle>Calle Colón 12, 3ºB</calle>
+                <codigo_postal>46004</codigo_postal>
+                <ciudad>Valencia</ciudad>
+            </direccion_envio>
+            <estado>Cancelado</estado>
+            <productos>
+                <producto id="PROD-001" cantidad="1" precio_unitario="49.99"/>
+                <producto id="PROD-005" cantidad="1" precio_unitario="175.00"/>
+            </productos>
+            <total>224.99</total>
+        </pedido>
+    </pedidos>
+</tienda>

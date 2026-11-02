@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto>
+
+    <alumnos>
+        <alumno id="al1">
+            <nombre>Ana</nombre>
+            <apellidos>Martínez Ruíz</apellidos>
+            <edad>19</edad>
+            <curso>1º ASIR</curso>
+            <asignaturas>
+                <asignatura id="asig1">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <nota>8.5</nota>
+                </asignatura>
+                <asignatura id="asig2">
+                    <nombre>Programación</nombre>
+                    <nota>7.0</nota>
+                </asignatura>
+                <asignatura id="asig3">
+                    <nombre>Gestión de bases de datos</nombre>
+                    <nota>9.0</nota>
+                </asignatura>
+                <asignatura id="asig4">
+                    <nombre>Inglés</nombre>
+                    <nota>6.5</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="al2">
+            <nombre>Marta</nombre>
+            <apellidos>Moliner Barcelona</apellidos>
+            <edad>18</edad>
+            <curso>1º ASIR</curso>
+            <asignaturas>
+                <asignatura id="asig1">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <nota>5.0</nota>
+                </asignatura>
+                <asignatura id="asig2">
+                    <nombre>Programación</nombre>
+                    <nota>6.0</nota>
+                </asignatura>
+                <asignatura id="asig3">
+                    <nombre>Gestión de bases de datos</nombre>
+                    <nota>4.5</nota>
+                </asignatura>
+                <asignatura id="asig4">
+                    <nombre>Inglés</nombre>
+                    <nota>7.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="al3">
+            <nombre>David</nombre>
+            <apellidos>Torres Vega</apellidos>
+            <edad>18</edad>
+            <curso>1º ASIR</curso>
+            <asignaturas>
+                <asignatura id="asig1">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <nota>9.5</nota>
+                </asignatura>
+                <asignatura id="asig2">
+                    <nombre>Programación</nombre>
+                    <nota>8.0</nota>
+                </asignatura>
+                <asignatura id="asig3">
+                    <nombre>Gestión de bases de datos</nombre>
+                    <nota>10.0</nota>
+                </asignatura>
+                <asignatura id="asig4">
+                    <nombre>Inglés</nombre>
+                    <nota>9.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="al4">
+            <nombre>Lucas</nombre>
+            <apellidos>Ríos Morales</apellidos>
+            <edad>21</edad>
+            <curso>1º ASIR</curso>
+            <asignaturas>
+                <asignatura id="asig1">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <nota>6.0</nota>
+                </asignatura>
+                <asignatura id="asig2">
+                    <nombre>Programación</nombre>
+                    <nota>5.5</nota>
+                </asignatura>
+                <asignatura id="asig3">
+                    <nombre>Gestión de bases de datos</nombre>
+                    <nota>7.0</nota>
+                </asignatura>
+                <asignatura id="asig4">
+                    <nombre>Inglés</nombre>
+                    <nota>8.0</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+    </alumnos>
+
+    <profesores>
+        <profesor>
+            <nombre>Leo</nombre>
+            <apellidos>Soler Ferrer</apellidos>
+        </profesor>
+        <profesor>
+            <nombre>Fran </nombre>
+            <apellidos>Furió Estors</apellidos>
+        </profesor>
+        <profesor>
+            <nombre>Javier</nombre>
+            <apellidos>Sánchez Gómez</apellidos>
+        </profesor>
+    </profesores>
+
+</instituto>
